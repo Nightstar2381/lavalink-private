@@ -7,7 +7,7 @@ spring:
 
 lavalink:
   server:
-    password: powerbysunjixxpass001
+    password: "powerbysunjixxpass001"
     sources:
       youtube: true
       soundcloud: true
