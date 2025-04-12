@@ -1,10 +1,6 @@
 server:
   port: 2333
 
-spring:
-  main:
-    banner-mode: "off"
-
 lavalink:
   server:
     password: "powerbysunjixxpass001"
@@ -12,9 +8,7 @@ lavalink:
       youtube: true
       soundcloud: true
     bufferDurationMs: 400
-    frameBufferDurationMs: 5000
-    opusEncodingQuality: 10
-    resamplingQuality: HIGH
-    trackStuckThresholdMs: 10000
-    useSeekGhosting: true
-    enableTrace: false
+    youtubePlaylistLoadLimit: 6
+    playerUpdateInterval: 5
+    youtubeSearchEnabled: true
+    gc-warnings: true
